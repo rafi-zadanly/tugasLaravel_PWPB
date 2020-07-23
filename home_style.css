@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body, .container-fluid{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    padding-top: 75px;
+}
+
+.animate__slideInDown, .animate__slideInUp{
+    animation-iteration-count: infinite;
+}
+
+.animate__slideInDown{
+    margin-top: 70px;
+}
+
+.animate__slideInUp{
+    margin-top: 100px;
+}
+
+.card:hover{
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
